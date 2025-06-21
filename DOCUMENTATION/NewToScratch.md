@@ -30,11 +30,14 @@ For whatever reason, this means that...
 > ```
 > This will cause problems later, but we'll cross that bridge when we come to it.
 
-Throughout this piece, I will be referencing these by number.
+**NOTE: Throughout this piece, I will be referencing these rules by number.**
 
-So, how does this work?
+## Why this Matters
 
-Basically, arrays act in place of classes, etc.
+This may not seem horrible at first, but here's an example of why it's such a pain.
+
+Let's say we want to create an item with 3 properties, one of which is an object in of itself.
+
 
 Instead of:
 
