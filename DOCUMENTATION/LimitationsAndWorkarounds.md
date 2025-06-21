@@ -108,8 +108,10 @@ string = "HelloWorld|123|false"
 > Most Scratch sprites in Exospace use this through two functions.
 >
 > `DecompileString(str, char)` seperates `str` into array `decompiled string` based off of `char`.
+>
 > `RecompileString(char)` compiles `decompiled string` into `recompiled string` based off of `char`.
->> NOTE: This is one workaround to passing in arrays for parameters: just have 
+>
+>> NOTE: This is one workaround to passing in arrays for parameters: you can just pass in a string.
 > 
 > ```
 > // Pseudocode
