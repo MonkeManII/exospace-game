@@ -1,0 +1,12 @@
+	               -- IDEAS --
+	 (this is like the 8th document so far ;-;
+	*-----------------------------------------*
+
+* Communications satellite?
+* Cell phones, with unique numbers (stored via item properties)
+* More diary logs from that one guy.
+* Shop, on the monitor.
+  |----- Accessible
+* Somehow censor chat or smth?
+* Abandoned satellite structures (and various other space junk)
+* Persistent worlds (via Python server w/ScratchAttach)
