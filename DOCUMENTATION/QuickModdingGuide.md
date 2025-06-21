@@ -20,7 +20,8 @@ Here's what each parameter does.
 - `breakToolTag`: The tool tag that this tile is 'vulnerable' to. For example, stone's `breakToolTag` is `pickaxe`.
 - `breakToolTier`: The minimum tool tier required for this tile to drop its loot when broken.
 - `lootTable`: The loot table that is dropped when this block is broken.
-> NOTE: `lootTable` on seed-like tiles (tiles with `specialType` set to 2) instead dictates which types of tiles this can grow into.
+> NOTE: `lootTable` on seed-like tiles (tiles with `specialType` set to 2) instead dictates which types of tiles this can grow into. Formatted as a string-array with a seperation character of `;`
+> For more info on non-seed loot tables, see [the Loot Table Generator documentation.](../Tools/LootTableGenerator.md)
 - `airBehaviour`: Special behaviours related to this tile being suspended in mid-air. Each number represents a different behaviour.
     - 1\. If there is no solid block under this one, destroy it and drop loot.
     - 2\. If there is no solid block under this one, make it affected by gravity.
