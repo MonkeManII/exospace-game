@@ -1,4 +1,6 @@
 # New to Scratch? Start Here! [CHAPTER 0]
+> NOTE: There is not a great way to represent Scratch code, so I will be using pseudocode.
+
 Okay, so this guide assumes that you've written in some other language like Javascript, Typescript, Python, Lua, C#, etc.
 So, what's the deal with Scratch? What makes it so annoying?
 For starters...
@@ -30,6 +32,7 @@ For whatever reason, this means that...
 > print(helloReturn)
 > ```
 > This will cause problems later, but we'll cross that bridge when we come to it.
+> (see "General Utility Functions/Get \[list\] data" for more information.)
 
 **NOTE: Throughout this piece, I will be referencing these rules by number.**
 
@@ -125,8 +128,11 @@ string = "HelloWorld|123|false"
 >> NOTE: Scratch is 1-indexed
 >
 > ```
+> // Pseudocode
 > decompiledString = ["HelloWorld", 123, false]
+>
 > RecompileString(";")
+> 
 > print(recompiledString) // "HelloWorld;123;false"
 > ```
 
@@ -233,3 +239,6 @@ ItemData = [
     "maxDurability;100;durability;75"
 ]
 ```
+
+### CONGRATULATIONS!
+If you're still with me, congrats. You've realized how bad of an idea modding is. If you still want to give it a shot, there's further documentation for a reason.
