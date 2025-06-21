@@ -1,4 +1,4 @@
-# New to Scratch? Start Here! [CHAPTER 0]
+# New to Scratch? Start Here!
 > NOTE: There is not a great way to represent Scratch code, so I will be using pseudocode.
 
 Okay, so this guide assumes that you've written in some other language like Javascript, Typescript, Python, Lua, C#, etc.
