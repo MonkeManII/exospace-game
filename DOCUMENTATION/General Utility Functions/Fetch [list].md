@@ -1,5 +1,5 @@
 # Fetch \[list\]
-Essentially just a higher-powered
+Essentially just a higher-powered version of the `Get [list] Data` function.
 
 Returns data through the `fetch` list.
 
